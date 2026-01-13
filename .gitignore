@@ -1,0 +1,32 @@
+# .gitignore
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Playwright
+playwright-report/
+test-results/
+
+# Скриншоты (можно удалить или закомментировать, если хотите хранить)
+screenshots/
+
+# Операционные системы
+.DS_Store
+Thumbs.db

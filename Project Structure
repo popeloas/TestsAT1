@@ -1,0 +1,10 @@
+Playwright1/
+├── conftest.py              # Только базовые настройки
+├── tests/
+│   └── test_google.py      # Все тесты здесь
+├── pages/
+│   ├── __init__.py         # Пустой
+│   └── google_page.py      # Только один класс для Google
+├── .gitignore              # Базовый
+├── requirements.txt        # Только 3 библиотеки
+└── pytest.ini             # Минимальная конфигурация
